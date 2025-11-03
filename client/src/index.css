@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Hide scrollbar for most elements */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom scrollbar for chat messages area */
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+  display: block;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: rgba(129, 133, 178, 0.5);
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: rgba(129, 133, 178, 0.7);
+}
